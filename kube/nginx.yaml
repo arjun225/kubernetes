@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-pod1
+  labels:
+    app: nginx
+    tier: dev
+spec:
+  containers:
+  - name: nginx-containers
+    image: nginx

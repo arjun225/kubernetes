@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: serviceAccount
+metadata:
+  name: malli-sa
+  namespace: prod
+Secret:
+  - name: malli-secret
